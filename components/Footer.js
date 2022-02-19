@@ -19,11 +19,11 @@ const Footer = () => {
           </g>
         </svg>
       </div>
-      <p className="underline">
+      {/* <p className="underline">
         <a href="https://www.storyblok.com/tp/next-js-react-guide">
           View tutorial on Storyblok
         </a>
-      </p>
+      </p> */}
     </footer>
   );
 };
