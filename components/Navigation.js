@@ -9,7 +9,7 @@ const Navigation = ({ locale, locales, defaultLocale }) => {
     en: "About",
     es: "Acerca",
   };
-  
+
   const defaultRoot = locale === defaultLocale ? "/" : `/${locale}/`;
   return (
     <header className="w-full bg-white">
@@ -35,8 +35,7 @@ const Navigation = ({ locale, locales, defaultLocale }) => {
             </Link>
           </div>
           <div className="text-black">
-            <p className="text-lg">Storyblok</p>
-            <p>NextJS Demo</p>
+            <p className="text-lg">Travel Blog</p>
           </div>
           <div className="ml-auto md:hidden">
             <button
